@@ -1,5 +1,6 @@
 import sqlite3
 from pathlib import Path
+##Este código em Python implementa um sistema simples de controle de estoque utilizando o banco de dados SQLite. Ele permite ao usuário adicionar, remover, atualizar a quantidade e listar produtos em um banco de dados
 
 ROOT_DIR = Path(__file__).parent
 DB_NAME = 'minha_loja.db'
